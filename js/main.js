@@ -1,4 +1,4 @@
-/* For Xray
+/* For Xray of earbuds
 (() => {
     let imageCon = document.querySelector('#imageCon'),
         drag = document.querySelector('.image-drag'),
@@ -39,10 +39,10 @@
 })();
 */
 
-/* For model viewer
+/* For model viewer live view
 
 
-(() => {
+(() => { 
   console.log("IIFE Fired");
   const model = document.querySelector("#model");
   const hotspots = document.querySelectorAll(".Hotspot");

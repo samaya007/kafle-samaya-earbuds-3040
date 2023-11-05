@@ -18,6 +18,16 @@ a {
   text-decoration: none;
   transition: all .5s ease-in-out;
 }
+
+.introduction {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #c3c1c1;
+  margin-bottom: 20px;
+}
+
+
+
 input, textarea {
   display: block;
   margin: 0px;
@@ -72,7 +82,7 @@ a.buy-button {
 a.buy-button:hover {
   background-color: #207ac1;
   border-color: #207ac1;
-  / 
+
 }
 .offerbox{
   background-color: rgb(206, 211, 63);
@@ -85,7 +95,7 @@ a.buy-button:hover {
   height: 450px;
 }
 .xraybox{
-  background-color: rgb(206, 211, 63);
+  background-color: rgb(139, 142, 52);
   color: rgb(255, 255, 255);
   border-radius: 5px;
   padding: 20px;
@@ -94,6 +104,18 @@ a.buy-button:hover {
   margin-bottom: 10px;
   height: 450px;
 }
+
+.live{
+  background-color: rgb(58, 121, 133);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 450px;
+}
+
 .headerbox{
   background-color: rgb(57, 181, 63);
   color: rgb(255, 255, 255);
@@ -245,7 +267,7 @@ a.buy-button:hover {
       margin-left: 0;
  }
 }
-.col-span-4 h5.offer-title {
+.col-span-4 h2.offer-title {
   font-size: 50px;
   color: #ffffff;
   font-weight: bold;
@@ -305,7 +327,7 @@ overflow: hidden;
 }
 
 
-/* For Xray
+/* For Xray earbuds
 #outerShell {
   display: none;
 }
@@ -512,7 +534,7 @@ overflow: hidden;
 
 }
 
-/* model viewer
+/* model viewer for earbuds
 :not(:defined) > * {
   display: none;
 }
