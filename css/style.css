@@ -287,12 +287,12 @@ overflow: hidden;
 
 .product-text {
   font-size: 145px; 
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5));
+  background: linear-gradient(90deg, rgba(149, 143, 143, 0.5), rgba(255, 255, 255, 1), rgba(110, 103, 103, 0.5));
   background-size: 200% 100%;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  animation: gradientAnimation 4s linear infinite;
+  animation: gradientAnimation 3s linear infinite;
 }
 
 @keyframes gradientAnimation {
@@ -404,8 +404,9 @@ overflow: hidden;
   transform: none;
   max-width: 1280px;
   width: 95%;
-  background: #10182F;
-  border-radius: 6px;
+  background: hsla(173, 58%, 43%, 1);
+  background: linear-gradient(90deg, rgb(223, 230, 229) 0%, hsla(188, 69%, 27%, 1) 100%);
+  background: -moz-linear-gradient(90deg, rgb(215, 233, 230) 0%, hsla(188, 69%, 27%, 1) 100%);  border-radius: 6px;
 }
 
 .footer .footer-row {
@@ -413,11 +414,11 @@ overflow: hidden;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 3.5rem;
-  padding: 60px;
+  padding: 10px;
 }
 
 .footer-row .footer-col h4 {
-  color: #fff;
+  color: #000000;
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -428,21 +429,21 @@ overflow: hidden;
 
 .footer-col .links li {
   list-style: none;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .footer-col .links li a {
   text-decoration: none;
-  color: #bfbfbf;
+  color: #000000;
 }
 
 .footer-col .links li a:hover {
-  color: #fff;
+  color: #1cbcbf;
 }
 
 .footer-col p {
   margin: 20px 0;
-  color: #bfbfbf;
+  color: #d0cdcd;
   max-width: 300px;
 }
 
@@ -457,15 +458,12 @@ overflow: hidden;
   background: none;
   width: 100%;
   outline: none;
-  border: 1px solid #7489C6 ;
-  caret-color: #fff;
-  color: #fff;
+  border: 1px solid #ffffff ;
+  color: #ffffff;
   padding-left: 10px;
 }
 
-.footer-col input::placeholder {
-  color: #ccc;
-}
+
 
  .footer-col form button {
   background: #fff;
@@ -479,23 +477,11 @@ overflow: hidden;
 }
 
 .footer-col form button:hover {
-  background: #cecccc;
+  background: #1cbcbf;
 }
 
-.footer-col .icons {
-  display: flex;
-  margin-top: 30px;
-  gap: 30px;
-  cursor: pointer;
-}
 
-.footer-col .icons i {
-  color: #afb6c7;
-}
 
-.footer-col .icons i:hover  {
-  color: #fff;
-}
 
 @media (max-width: 768px) {
   .footer {
