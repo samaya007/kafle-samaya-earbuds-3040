@@ -1,0 +1,141 @@
+
+ body {
+    margin: 0px;
+    padding: 0px;
+  
+   font-weight: bold;
+}
+
+
+
+
+img, embed, object, video, picture {
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+input, textarea {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+section h2, section h3, section p {
+    padding-left: 15px;
+}
+
+.spacer {
+    margin-top: 60px;
+}
+
+.txt-spacer {
+    margin-top: 30px;
+}
+
+ /* ---End of General Styles--- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .offerbox{
+  background-color: rgb(206, 211, 63);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 450px;
+
+}
+  
+
+
+/*FOR SALE BUTTON :BUY NOW (sale-page)*/
+
+.salebutton{
+
+  background-color: brown;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  transition-duration: 0.4s;
+
+  transition: transform 0.3s ease;
+
+  margin-top: 8px;
+margin-bottom: 8px;
+margin-left: 50px;
+}
+
+.salebutton:hover {
+  background-color: #1cbcbf;
+  color: white;
+}
+
+.salebutton:hover {
+  transform: scale(1.1);
+}
+
+
+
+/*FOR SALE ITEM IMAGE*/
+.saleitemimage{
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+  border-radius: 2%;
+
+}
+
+/*footer*/
+.text-center-foot{
+  text-align: center;
+  background-color: #333333af;
+}
+
+
+
+.contact{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
